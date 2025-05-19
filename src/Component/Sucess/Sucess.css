@@ -1,0 +1,104 @@
+.Container {
+    height: 665px ;
+    width: 1000px;
+    background-color: rgb(16, 16, 46);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Contain{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 150px;
+}
+
+.icon{
+    width: 50px;
+    margin: 20px;
+}
+
+.sub h1{
+    margin: -10px 0px 0px 30px;
+    font-size: 30px;
+
+
+    
+}
+
+.sub p{
+    margin: 30px;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.butn{
+    height: 40px;
+    width: 245px;
+    background-color: rgb(16, 16, 46);
+    margin-left: 30px;
+    color: white;
+    font-size: 10px;
+    border: none;
+
+    
+}
+
+.butn:hover {
+   background-color: rgb(236, 69, 69);
+  }
+
+  @media(max-width: 480px){
+
+    .Container {
+        height: 700px ;
+        width: 100%;
+        background-color: white; 
+    
+    }
+
+    .Contain{
+        height: 700px;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        margin-top: 100px;
+    }
+    
+    .icon{
+        width: 80px;
+        margin: 20px;
+    }
+    
+    .sub h1{
+        font-size: 45px;
+        width: 250px;
+        font-weight:700
+        border: 1px solid
+        
+    }
+
+    .sub p{
+        margin: 30px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .butn{
+        height: 50px;
+        width: 330px;
+        background-color: rgb(16, 16, 46);
+        margin-left: 30px;
+        color: white;
+        font-size: 15px;
+        border: none;
+        margin-top: 180px;
+    
+        
+    }
+  }
+
+

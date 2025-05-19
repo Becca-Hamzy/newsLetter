@@ -1,0 +1,182 @@
+.mainContainer{
+    height: 665px ;
+    width: 1000px;
+    background-color: rgb(16, 16, 46);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.miniContainer{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 70px;
+    display: flex;
+    position: relative;
+
+
+}
+
+.stay{
+    width: 40%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 0px 35px;
+    
+}
+
+.img{
+    
+    width: 40%;
+     
+
+}
+
+ .stay h1{
+    text-align: center;
+    color: rgb(59, 55, 55);
+    margin-top: 65px;
+    font-size: 40px
+
+
+}
+
+input{
+    width: 260px;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid rgb(196, 185, 185);
+
+}
+
+label{
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.btn{
+    background-color: rgb(16, 16, 46) ; 
+    color: white;
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 10px;
+    height: 40px;
+
+}
+
+Form{
+    margin-top: 20px;
+}
+
+
+.signup{
+    height: 470px;
+    width: 350px;
+    position: absolute;    
+    right: 0px;
+    bottom: 20px;
+    /* border: 2px solid red; */
+}
+
+p{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+}
+.signup-mob{
+    display:none;
+}
+
+@media(max-width: 480px){
+    .mainContainer{
+    height: 800px ;
+    width: 100%;
+    background-color: white;    
+}
+
+.miniContainer{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border-radius: 0px;
+
+
+
+}
+.signup{
+    height: 470px;
+    width: 350px;
+    position: absolute;    
+    right: 0px;
+    bottom: 20px;
+    display: none;
+}
+
+.signup-mob{
+    display:block;
+    height:150px;
+    margin-bottom: 150px;
+    width:100%;
+    
+}
+
+.mob{
+    width: 430px;
+
+
+}
+
+.stay{
+    width: 310px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 0px 35px;
+    
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+}
+
+.btn{
+    background-color: rgb(16, 16, 46) ; 
+    color: white;
+    width: 355px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 10px;
+    height: 50px;
+
+}
+
+input{
+    width: 350px;
+    border-radius: 5px;
+    height: 45px;
+    border: 1px solid rgb(196, 185, 185);
+
+}
+
+h1{
+    text-align: justify;
+    color: rgb(59, 55, 55);
+    margin-top: 65px;
+    font-size: 40px
+
+
+}
+}
