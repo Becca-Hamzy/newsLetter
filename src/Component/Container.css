@@ -68,6 +68,10 @@ label{
 
 }
 
+.btn:hover {
+    background-color: rgb(236, 69, 69);
+   }
+
 Form{
     margin-top: 20px;
 }
@@ -88,6 +92,7 @@ p{
     display: flex;
     gap: 10px;
     justify-items: center;
+    color: black;
 }
 .signup-mob{
     display:none;
@@ -162,6 +167,10 @@ p{
     height: 50px;
 
 }
+
+.btn:hover {
+    background-color: rgb(236, 69, 69);
+   }
 
 input{
     width: 350px;
